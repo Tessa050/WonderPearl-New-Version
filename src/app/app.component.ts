@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Carousel, Dropdown, initTE } from 'tw-elements';
+import { Ripple, Carousel, Dropdown, initTE } from 'tw-elements';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,6 @@ import { Carousel, Dropdown, initTE } from 'tw-elements';
 })
 export class AppComponent {
   ngOnInit() {
-    initTE({ Carousel, Dropdown });
+    initTE({ Carousel, Dropdown,Ripple });
   }
 }
